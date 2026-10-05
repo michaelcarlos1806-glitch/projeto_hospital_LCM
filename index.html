@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!--Aqui vai os meta dados-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital infantil LCM</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<!--Corpo do conteudo-->
+<body>
+    <div class="container">
+
+        <!--cabeçalho-->
+        <header id="voltar">
+            <!--div para melhor design no css-->
+            <div class="logo">
+            <img src="img/logo-hospital.png" alt="previa da imagem da logo do hospital">
+            <div class="texto-titulo-p">
+            <h1><a href="#voltar">Hospital infantil LCM</a></h1>
+            <p>Lugar de acolhimento e responsabilidade</p>
+            </div>
+            </div>
+            <nav>
+                <a href="#inicio">Inicio</a>
+                <a href="#nos">Sobre nos</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#diferenciais">Diferenciais</a>
+                <a href="#depoimentos">Depoimentos</a>
+                <a href="#contatos">Contatos</a>
+            </nav>
+        </header>
+
+        <!--conteudo principal-->
+        <main>
+            <!--inicio-->
+            <section id="inicio">
+                <h2>Cuidando do futuro com carinho e tecnologia</h2>
+                <p>O Hospital Infantil LCM é uma instituição dedicada ao atendimento especializado de crianças, oferecendo saúde, acolhimento e cuidado humanizado. Nosso compromisso é proporcionar um ambiente seguro e confortável para pacientes e familiares.</p>
+                <p>Veja nossas especialidades</p>
+                <!--div para melhor design no css-->
+                <div class="botoes">
+                <button onclick="mostrar('terapia')">Terapia</button>
+                <button onclick="mostrar('pediatria')">Pediatria</button>
+                <button onclick="mostrar('psicologia')">Psicologia</button>
+                <button onclick="mostrar('nutricao')">Nutrição</button>
+                <button onclick="mostrar('vacinacao')">Vacinação</button>
+                </div>
+
+                <!--article pedindo para apertar os botoes-->
+                <article id="mensagem-inicial">
+                    <h3>Escolha uma especialidade</h3>
+                    <p>Clique em um dos botões para ver mais informações.</p>
+                </article>
+               
+                <div class="encaminhamento-botao">
+                <article id="terapia" class="especialidade">
+                <h4>Terapia</h4>
+                <p>A terapia infantil auxilia no desenvolvimento emocional,social e comportamental das crianças.</p>
+                </article>
+
+                <article id="pediatria" class="especialidade">
+                    <h4>Pediatria</h4>
+                    <p>Acompanhamento completo da saúde infantil desde o nascimento até a adolescência.</p>
+                </article>
+
+                <article id="psicologia" class="especialidade">
+                    <h4>Psicologia Infantil</h4>
+                    <p>Suporte emocional para crianças e familiares.</p>
+                </article>
+
+                <article id="nutricao" class="especialidade">
+                    <h4>Nutrição Infantil</h4>
+                    <p>Orientação alimentar para crescimento saudável.</p>
+                </article>
+
+                <article id="vacinacao" class="especialidade">
+                    <h4>Vacinação</h4>
+                    <p>Proteção e prevenção com vacinas atualizadas.</p>
+                </article>
+                </div>
+            </section>
+
+            <section id="nos">
+                <h2>Quem Somos</h2>
+                <p>O Hospital Infantil LCM nasceu com a missão de oferecer atendimento pediátrico de excelência, unindo profissionais qualificados, tecnologia moderna e um atendimento humanizado. Nossa equipe trabalha diariamente para garantir o bem-estar, a segurança e a recuperação das crianças, sempre colocando o paciente em primeiro lugar.</p>
+                <!--div para melhor design no css-->
+               <div class="cartao-nos">
+                <article>
+                <h3>Nossa Missão</h3>
+                <p>Promover a saúde infantil com qualidade, segurança e respeito.</p>
+                </article>
+
+                <article>
+                <h3>Nossa Visão</h3>
+                <p>Ser referência em atendimento pediátrico na região.</p>
+                </article>
+
+                <article>
+                <h3>Nossos Valores</h3>
+                <ul>
+                    <li>Humanização</li>
+                    <li>Ética</li>
+                    <li>Respeito</li>
+                    <li>Inovação</li>
+                    <li>Compromisso com a vida</li>
+                </ul>
+                </article>
+                </div>
+                </section>
+
+            <section id="servicos">
+                <h2>Especialidades Médicas</h2>
+                <!--div para melhor design no css-->
+                    <div class="cartao-especialidade">
+                    <article>
+                        <h3>Pediatria Geral</h3>
+                        <p>Acompanhamento completo da saúde infantil.</p>
+                    </article>
+
+                    <article>
+                        <h3>Vacinação</h3>
+                        <p>Proteção e prevenção com vacinas atualizadas.</p>
+                    </article>
+
+                    <article>
+                        <h3>Emergência Pediátrica</h3>
+                        <p>Atendimento rápido e especializado para situações urgentes.</p>
+                    </article>
+
+                    <article>
+                        <h3>Exames Clínicos</h3>
+                        <p>Diagnósticos precisos com equipamentos modernos.</p>
+                    </article>
+
+                    <article>
+                        <h3>Nutrição Infantil</h3>
+                        <p>Orientação alimentar para crescimento saudável.</p>
+                    </article>
+
+                    <article>
+                        <h3>Psicologia Infantil</h3>
+                        <p>Suporte emocional para crianças e familiares.</p>
+                    </article>
+                    </div>
+            </section>
+
+            <section id="diferenciais">
+                <div class="diferencial">
+                <h2>Por que escolher o Hospital Infantil LCM?</h2>
+                <div class="cards-diferencial">
+                <article>
+                    <p>Atendimento Humanizado</p>
+                </article>
+
+                <article>
+                    <p>Equipe Especializada</p>
+                </article>
+
+                <article>
+                    <p>Tecnologia Moderna</p>
+                </article>
+
+                <article>
+                    <p>Ambiente Seguro</p>
+                </article>
+
+                <article>
+                    <p>Emergência</p>
+                </article>
+                
+                <article>
+                    <p>Foco no Bem-Estar Infantil</p>
+                </article>
+                </div>
+                
+                </div>
+            </section>
+
+            <section id="depoimentos">
+                <div class="card-depoimento">
+                <h2>O que dizem os responsáveis</h2>
+                <!--div para melhor design no css-->
+                <div class="cartao-depoimentos">
+                <article>
+                <img src="img/imagem-atendimento-prediatrico.png" alt="previa da imagem do atendimento pediatrico" width="200" height="156">
+                <p>"Excelente atendimento e profissionais muito atenciosos."</p>
+                </article>
+
+                <article>
+                <img src="img/imagem-Ambiente-acolhedor.png" alt="previa da imagem do ambeinte acolhedor" width="200" height="156">
+                <p>"Ambiente acolhedor e organizado."</p>
+                </article>
+
+                <article>
+                <img src="img/imagem-bem-cuidada.png" alt="previa da imagem do cuidado no atendimento" width="200" height="156">
+                <p>"Minha criança foi muito bem cuidada durante todo o atendimento."</p>
+                </article>
+                </div>
+            </section>
+
+            <section id="contatos">
+                <div class="card-contatos">
+                <h2>Entre em Contato</h2>
+                <ul>
+                    <li>Endereço: Rua das Crianças, 123</li>
+                    <li>Telefone: (84) 99999-9999</li>
+                    <li>E-mail: contato@hospitalinfantillcm.com</li>
+                    <li>Horário de Funcionamento: Segunda a Sexta: 7h às 18h</li>
+                </ul>
+            </div>
+            </section>
+
+        </main>
+
+        <!--Rodape-->
+        <footer>
+            <h3>Hospital Infantil LCM</h3>
+            <p>Cuidando de grandes histórias desde cedo.</p>
+            <p>© 2026 Hospital Infantil LCM. Todos os direitos reservados.|(Projeto educacional UC2)</p>
+            <p>Tecnologias Utilizadas |HTML5|CSS3|JavaScript|Git e GitHub.</p>
+            <a href="#voltar">Voltar ao inicio</a>
+        </footer>
+
+        <script src="js/script.js"></script>
+    </div>
+</body>
+</html>
